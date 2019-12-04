@@ -1,56 +1,56 @@
-04/12/2019 05:53:53.490 - [Shubham Automation] - [INFO] - java.util.logging.ConsoleHandler@627a8ecd
-04/12/2019 05:53:53.491 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_GoIbibo_homepage_goibibo_works_as_expected ] PageTitle is as expected
-04/12/2019 05:53:53.767 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_GoIbibo_homepage_goibibo_works_as_expected ] PageTitle is as expected
-04/12/2019 05:53:54.435 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in from
-04/12/2019 05:53:54.640 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] from city is clicked
-04/12/2019 05:53:55.048 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in from
-04/12/2019 05:53:55.278 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] from city is clicked
-04/12/2019 05:53:55.697 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in desc
-04/12/2019 05:53:56.771 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] desc city is clicked
-04/12/2019 05:53:56.940 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] current date selected
-04/12/2019 05:53:57.322 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] Click on search button
-04/12/2019 05:53:57.395 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Page load done
-04/12/2019 05:53:59.042 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in desc
-04/12/2019 05:53:59.572 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] desc city is clicked
-04/12/2019 05:54:00.717 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] current date selected
-04/12/2019 05:54:01.237 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] Click on search button
-04/12/2019 05:54:01.238 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Test pico containers ***************************
-04/12/2019 05:54:01.238 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Goibibo - Best Travel Website. Book Hotels, Flights, Trains, Bus and Cabs with upto 50% off
-04/12/2019 05:54:01.238 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] last name =Goibibo - Best Travel Website. Book Hotels, Flights, Trains, Bus and Cabs with upto 50% off
-04/12/2019 05:54:01.238 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Test pico containers ***************************
-04/12/2019 05:54:01.352 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] *************************
-04/12/2019 05:54:01.703 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:01.740 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 5,649
-04/12/2019 05:54:01.758 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Required error message shown
-04/12/2019 05:54:01.773 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:01.808 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] As required Page hasn't move to next flight search due to error
-04/12/2019 05:54:01.840 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 6,179
-04/12/2019 05:54:01.898 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:01.952 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 7,244
-04/12/2019 05:54:01.989 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.019 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,937
-04/12/2019 05:54:02.033 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.050 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 9,000
-04/12/2019 05:54:02.076 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.119 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 9,529
-04/12/2019 05:54:02.137 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.158 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 9,618
-04/12/2019 05:54:02.172 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.188 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 9,618
-04/12/2019 05:54:02.199 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.232 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 9,618
-04/12/2019 05:54:02.244 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
-04/12/2019 05:54:02.274 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 12,822
-04/12/2019 05:54:02.288 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Getting all price shown on the Page
-04/12/2019 05:54:02.288 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] sorted price of first list
-04/12/2019 05:54:02.288 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Sortprices [5649, 6179, 7244, 8937, 9000, 9529, 9618, 9618, 9618, 12822]
-04/12/2019 05:54:02.288 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] realprices [5649, 6179, 7244, 8937, 9000, 9529, 9618, 9618, 9618, 12822]
-04/12/2019 05:54:02.288 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Getting all price shown are in ascending order
-04/12/2019 05:54:02.660 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_GoIbibo_homepage_goibibo_works_as_expected ] PageTitle is as expected
-04/12/2019 05:54:03.982 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in from
-04/12/2019 05:54:04.310 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] from city is clicked
-04/12/2019 05:54:05.047 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in desc
-04/12/2019 05:54:05.239 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] desc city is clicked
-04/12/2019 05:54:05.328 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : search_for_one_way_flights_between_and_on_old_date ] Click operation on old date
-04/12/2019 05:54:05.353 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : old_date_must_not_be_selected ] departureDate  ==
-04/12/2019 05:54:05.353 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : old_date_must_not_be_selected ] Old date is not selected as required
+04/12/2019 06:12:50.066 - [Shubham Automation] - [INFO] - java.util.logging.ConsoleHandler@228261b3
+04/12/2019 06:12:50.067 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_GoIbibo_homepage_goibibo_works_as_expected ] PageTitle is as expected
+04/12/2019 06:12:53.694 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in from
+04/12/2019 06:12:53.931 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] from city is clicked
+04/12/2019 06:12:54.938 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in desc
+04/12/2019 06:12:55.237 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] desc city is clicked
+04/12/2019 06:12:55.386 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] current date selected
+04/12/2019 06:12:55.681 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] Click on search button
+04/12/2019 06:12:55.714 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Page load done
+04/12/2019 06:12:57.941 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_GoIbibo_homepage_goibibo_works_as_expected ] PageTitle is as expected
+04/12/2019 06:12:58.285 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] *************************
+04/12/2019 06:12:58.337 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:12:58.571 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 6,179
+04/12/2019 06:12:58.893 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:12:59.369 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 7,244
+04/12/2019 06:13:00.970 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_GoIbibo_homepage_goibibo_works_as_expected ] PageTitle is as expected
+04/12/2019 06:13:02.226 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in from
+04/12/2019 06:13:02.307 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in from
+04/12/2019 06:13:02.345 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.365 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,200
+04/12/2019 06:13:02.378 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.401 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] from city is clicked
+04/12/2019 06:13:02.413 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,200
+04/12/2019 06:13:02.424 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.500 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,200
+04/12/2019 06:13:02.502 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] from city is clicked
+04/12/2019 06:13:02.562 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.643 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,531
+04/12/2019 06:13:02.741 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.767 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,799
+04/12/2019 06:13:02.798 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.836 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 8,937
+04/12/2019 06:13:02.862 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.896 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 9,000
+04/12/2019 06:13:02.909 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] ************Price*************
+04/12/2019 06:13:02.930 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] 12,822
+04/12/2019 06:13:02.953 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Getting all price shown on the Page
+04/12/2019 06:13:02.953 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] sorted price of first list
+04/12/2019 06:13:02.954 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Sortprices [6179, 7244, 8200, 8200, 8200, 8531, 8799, 8937, 9000, 12822]
+04/12/2019 06:13:02.954 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] realprices [6179, 7244, 8200, 8200, 8200, 8531, 8799, 8937, 9000, 12822]
+04/12/2019 06:13:02.954 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost ] Getting all price shown are in ascending order
+04/12/2019 06:13:04.001 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in desc
+04/12/2019 06:13:04.216 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] desc city is clicked
+04/12/2019 06:13:04.347 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] current date selected
+04/12/2019 06:13:04.412 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights_between_source_and_destination ] Click on search button
+04/12/2019 06:13:04.413 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Test pico containers ***************************
+04/12/2019 06:13:04.413 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Goibibo - Best Travel Website. Book Hotels, Flights, Trains, Bus and Cabs with upto 50% off
+04/12/2019 06:13:04.413 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] last name =Goibibo - Best Travel Website. Book Hotels, Flights, Trains, Bus and Cabs with upto 50% off
+04/12/2019 06:13:04.413 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Test pico containers ***************************
+04/12/2019 06:13:04.486 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] Required error message shown
+04/12/2019 06:13:04.538 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : an_error_message_should_appears_and_no_search_process_should_initiate ] As required Page hasn't move to next flight search due to error
+04/12/2019 06:13:04.599 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] city is entered in desc
+04/12/2019 06:13:04.780 - [Shubham Automation] - [INFO] - [ GoibiboPostiveScenario : search_for_one_way_flights ] desc city is clicked
+04/12/2019 06:13:04.868 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : search_for_one_way_flights_between_and_on_old_date ] Click operation on old date
+04/12/2019 06:13:04.895 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : old_date_must_not_be_selected ] departureDate  ==
+04/12/2019 06:13:04.895 - [Shubham Automation] - [INFO] - [ GoibiboNegativeScenarios : old_date_must_not_be_selected ] Old date is not selected as required

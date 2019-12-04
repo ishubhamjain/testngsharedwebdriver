@@ -1,11 +1,11 @@
 package stepdef;
 
 
-import driver.SharedDriver;
+import automationframework.SharedDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
-import pageobject.GoogleHomePO;
-import pageobject.GoogleSearchPO;
+import pageobjects.GoogleHomePO;
+import pageobjects.GoogleSearchPO;
 
 public class StepDefinition {
 	

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Automation</td>
+              <td>1</td>
+            <td>04 Dec 2019, 18:13</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">GoibiboNegativeScenarios.an_error_message_should_appears_and_no_search_process_should_initiate()</td>
+              <td>1</td>
+              <td class="duration" data-value="125346100">0.125</td>
+              <td class="duration" data-value="125346100">0.125</td>
+              <td class="duration" data-value="125346100">0.125</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">GoibiboNegativeScenarios.old_date_must_not_be_selected()</td>
+              <td>1</td>
+              <td class="duration" data-value="26790400">0.026</td>
+              <td class="duration" data-value="26790400">0.026</td>
+              <td class="duration" data-value="26790400">0.026</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">GoibiboNegativeScenarios.search_for_one_way_flights_between_and_on_old_date(String,String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3737910700">3.737</td>
+              <td class="duration" data-value="3737910700">3.737</td>
+              <td class="duration" data-value="3737910700">3.737</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">GoibiboPostiveScenario.backgroundTest()</td>
+              <td>3</td>
+              <td class="duration" data-value="17471833733">17.471</td>
+              <td class="duration" data-value="17471833733">22.051</td>
+              <td class="duration" data-value="52415501200">52.415</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">GoibiboPostiveScenario.search_for_one_way_flights_between_source_and_destination(String,String)</td>
+              <td>2</td>
+              <td class="duration" data-value="4460091000">4.460</td>
+              <td class="duration" data-value="4460091000">5.522</td>
+              <td class="duration" data-value="8920182000">8.920</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">GoibiboPostiveScenario.verify_if_GoIbibo_homepage_goibibo_works_as_expected()</td>
+              <td>3</td>
+              <td class="duration" data-value="1256890100">1.256</td>
+              <td class="duration" data-value="1256890100">3.257</td>
+              <td class="duration" data-value="3770670300">3.770</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">GoibiboPostiveScenario.verify_if_the_page_results_are_ordered_in_decreasing_order_of_cost()</td>
+              <td>1</td>
+              <td class="duration" data-value="7272186400">7.272</td>
+              <td class="duration" data-value="7272186400">7.272</td>
+              <td class="duration" data-value="7272186400">7.272</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefinition.given()</td>
+              <td>3</td>
+              <td class="duration" data-value="23688242600">23.688</td>
+              <td class="duration" data-value="23688242600">29.535</td>
+              <td class="duration" data-value="71064727800">1:11.064</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefinition.when(String)</td>
+              <td>3</td>
+              <td class="duration" data-value="9373884400">9.373</td>
+              <td class="duration" data-value="9373884400">13.548</td>
+              <td class="duration" data-value="28121653200">28.121</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>9</td>
+            <td>18</td>
+            <td class="duration">9.747</td>
+            <td class="duration">1:11.064</td>
+            <td class="duration">2:55.454</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

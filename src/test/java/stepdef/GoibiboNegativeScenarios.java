@@ -9,14 +9,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import driver.AutomationLog;
-import driver.DriverFactory;
-import driver.SharedDriver;
+
+import automationframework.AutomationLog;
+import automationframework.DriverFactory;
+import automationframework.SharedDriver;
 /*import driver.Page;*/
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageobject.FlightDetailsPage;
-import pageobject.GoibiboHomePage;
+import pageobjects.FlightDetailsPage;
+import pageobjects.GoibiboHomePage;
 import pico.FullName;
 
 public class GoibiboNegativeScenarios {

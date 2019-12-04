@@ -13,16 +13,16 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import driver.AutomationLog;
-import driver.DriverFactory;
-import driver.Page;
-import driver.SharedDriver;
-import driver.WaitFor;
+
+import automationframework.AutomationLog;
+import automationframework.DriverFactory;
+import automationframework.SharedDriver;
+import automationframework.WaitFor;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageobject.FlightDetailsPage;
-import pageobject.GoibiboHomePage;
+import pageobjects.FlightDetailsPage;
+import pageobjects.GoibiboHomePage;
 import pico.FullName;
 
 public class GoibiboPostiveScenario {
