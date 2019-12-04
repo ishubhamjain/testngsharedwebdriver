@@ -32,12 +32,6 @@ public class GoibiboPostiveScenario {
 	FlightDetailsPage flightPage=null;
 //	ExcelLib xls= new ExcelLib();
 	private FullName name;
-
-	/*public GoibiboPostiveScenario() {
-		this.driver= Page.getDriver();
-		gohomepage = new GoibiboHomePage(this.driver);
-		flightPage= new FlightDetailsPage(this.driver);
-	}*/
 	
 	// pico container source : https://tutorial.grasshopper.tech/sharing-state-with-picocontainer-spring/
 	// complete source: https://grasshopper.tech/1478/ or https://grasshopper.tech/
@@ -45,7 +39,13 @@ public class GoibiboPostiveScenario {
 	
 	public GoibiboPostiveScenario(SharedDriver driver,FullName name) {
 		this.driver=DriverFactory.getDriver();
-	//	this.driver= Page.getDriver();
+		gohomepage = new GoibiboHomePage(this.driver);
+		flightPage= new FlightDetailsPage(this.driver);
+		this.name = name;
+	}
+	
+	public GoibiboPostiveScenario(FullName name) {
+		this.driver=DriverFactory.getDriver();
 		gohomepage = new GoibiboHomePage(this.driver);
 		flightPage= new FlightDetailsPage(this.driver);
 		this.name = name;

@@ -25,12 +25,6 @@ public class GoibiboNegativeScenarios {
 	FlightDetailsPage flightPage=null;
 	private FullName name;
 
-/*	public GoibiboNegativeScenarios() {
-		this.driver= Page.getDriver();
-		gohomepage = new GoibiboHomePage(this.driver);
-		flightPage= new FlightDetailsPage(this.driver);
-	}*/
-
 	public GoibiboNegativeScenarios(SharedDriver driver,FullName name) {
 		this.driver=DriverFactory.getDriver();
 	//	this.driver= Page.getDriver();
@@ -74,12 +68,12 @@ public class GoibiboNegativeScenarios {
 	
 	@When("^search for one-way flights between \"([^\"]*)\" and \"([^\"]*)\" on old date$")
 	public void search_for_one_way_flights_between_and_on_old_date(String source, String destination) throws Throwable {
-	/*	GoibiboPostiveScenario scenario = new GoibiboPostiveScenario(name);
+		GoibiboPostiveScenario scenario = new GoibiboPostiveScenario(name);
 		scenario.search_for_one_way_flights(source, destination);
 		
 		List<WebElement> oldDates = gohomepage.dropdown_disableOldDates();
 		oldDates.get(0).click();
-		AutomationLog.info("Click operation on old date");*/
+		AutomationLog.info("Click operation on old date");
 	}
 
 	@Then("^Old date must not be selected$")
