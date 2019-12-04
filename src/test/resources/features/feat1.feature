@@ -1,4 +1,4 @@
-Feature: 
+Feature: Automation google feature file name
 
   Scenario: Cucumber
     Given Go to google page

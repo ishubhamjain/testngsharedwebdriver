@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>testngsharedwebdriver</groupId>
 	<artifactId>testngsharedwebdriver</artifactId>
@@ -14,6 +12,11 @@
 
 		<cucumber.version>4.8.0</cucumber.version>
 		<selenium.version>3.141.59</selenium.version>
+		<maven.build.timestamp.format>yyyy-MM-dd_HH-mm-ss</maven.build.timestamp.format>
+		<cucumberReporting.outputDirectory>reports/${maven.build.timestamp}</cucumberReporting.outputDirectory>
+		<maven.cucumber.reporting.version>3.20.0</maven.cucumber.reporting.version>
+		<generateReportRunPhase>install</generateReportRunPhase>
+		
 	</properties>
 
 	<dependencies>
@@ -75,6 +78,43 @@
 							<goal>integration-test</goal>
 							<goal>verify</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>net.masterthought</groupId>
+				<artifactId>maven-cucumber-reporting</artifactId>
+				<version>${maven.cucumber.reporting.version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>com.fasterxml.jackson.dataformat</groupId>
+						<artifactId>jackson-dataformat-yaml</artifactId>
+						<version>2.7.3</version>
+					</dependency>
+				</dependencies>
+				<executions>
+					<execution>
+						<id>execution</id>
+						<phase>${generateReportRunPhase}</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<!-- set the working configurations -->
+							<projectName>Automation</projectName>
+							<outputDirectory>${cucumberReporting.outputDirectory}</outputDirectory>
+							<inputDirectory>${project.build.directory}/</inputDirectory>
+							<jsonFiles>
+								<param>**/cucumber.json</param>
+							</jsonFiles>
+							<classificationDirectory>${project.build.directory}/</classificationDirectory>
+							<classificationFiles>
+								<param>sample.properties</param>
+								<param>other.properties</param>
+							</classificationFiles>
+							<parallelTesting>true</parallelTesting>
+							<checkBuildResult>true</checkBuildResult>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>

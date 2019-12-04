@@ -17,7 +17,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-Feature: Automation
+Feature: Automation goibobo feature file name
 
   Background:
   Given User logs into the application and on the home page
