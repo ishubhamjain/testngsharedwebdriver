@@ -1,0 +1,3 @@
+2019-12-04 13:50:53,183 main INFO  wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\10649310\.m2\repository\webdriver\chromedriver\win32\78.0.3904.70\chromedriver.exe
+2019-12-04 13:51:16,025 TestNG-test=Package with subpackages-1 INFO  wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\10649310\.m2\repository\webdriver\chromedriver\win32\78.0.3904.70\chromedriver.exe
+2019-12-04 13:51:29,624 TestNG-test=Package with subpackages-1 INFO  wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\10649310\.m2\repository\webdriver\chromedriver\win32\78.0.3904.70\chromedriver.exe
