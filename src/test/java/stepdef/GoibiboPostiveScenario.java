@@ -72,6 +72,8 @@ public class GoibiboPostiveScenario {
 			
 			AutomationLog.info("PageTitle is as expected");
 			
+			Assert.assertEquals(true,false);
+			
 		//	String PageHeader = gohomepage.text_HomePageHeader().getText();
 			
 			String PageHeader = gohomepage.text_HomePageHeader.getText();

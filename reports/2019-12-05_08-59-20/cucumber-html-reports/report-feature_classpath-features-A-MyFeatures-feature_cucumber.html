@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports (no 1) - Feature: Automation google feature file name</title>
+<title>Cucumber Reports (no 1) - Feature: Automation goibobo feature file name</title>
 
 </head>
 <body>
@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Automation</td>
               <td>1</td>
-            <td>04 Dec 2019, 18:39</td>
+            <td>05 Dec 2019, 14:29</td>
     </tr>
   </tbody>
 </table>
@@ -131,21 +131,21 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Automation google feature file name</td>
+          <td class="tagname">Automation goibobo feature file name</td>
                       <td>cucumber</td>
-                    <td      class="passed"    >4</td>
-          <td >0</td>
-          <td >0</td>
+                    <td      class="passed"    >1</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >2</td>
           <td >0</td>
           <td >0</td>
           <td class="total">4</td>
 
-          <td  class="passed"    >2</td>
           <td >0</td>
-          <td class="total">2</td>
+          <td  class="failed"    >1</td>
+          <td class="total">1</td>
 
-          <td class="duration" data-value="50303236700">50.303</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="11879667600">11.879</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -177,9 +177,9 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
-  <span class="name">Automation google feature file name</span>
+  <span class="name">Automation goibobo feature file name</span>
   
 
   </div>
@@ -195,14 +195,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">22.582</span>
+  <span class="lead-duration duration">11.776</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
 <div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Cucumber</span>
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -234,34 +234,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">Go to google page</span>
+  <span class="name">User logs into the application and on the home page</span>
   
-  <span class="lead-duration duration">19.151</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">Enter search &quot;cucumber&quot;</span>
-  
-  <span class="lead-duration duration">3.430</span>
+  <span class="lead-duration duration">11.776</span>
 
   </div>
 
@@ -297,14 +272,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">27.720</span>
+  <span class="lead-duration duration">0.103</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-3">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Selenium</span>
+  <span class="name">postive scenario</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -313,15 +288,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-3" class="collapse collapsable-details ">
+  <div id="element-3" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-4">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -331,14 +306,59 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-4" class="inner-level collapse collapsable-details ">
+  <div id="steps-4" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Given</span>
-  <span class="name">Go to google page</span>
+  <span class="name">verify if GoIbibo homepage goibibo works as expected</span>
   
-  <span class="lead-duration duration">21.889</span>
+  <span class="lead-duration duration">0.103</span>
+
+  </div>
+
+        
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>java.lang.AssertionError:</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at stepdef.GoibiboPostiveScenario.verify_if_GoIbibo_homepage_goibibo_works_as_expected(GoibiboPostiveScenario.java:75)
+	at &#10045;.verify if GoIbibo homepage goibibo works as expected(classpath:features/A.MyFeatures.feature:26)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">search for one-way flights between &quot;Bengaluru&quot; and &quot;Mumbai&quot;</span>
+  
+  <span class="lead-duration duration">0.000</span>
 
   </div>
 
@@ -359,11 +379,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">Enter search &quot;selenium&quot;</span>
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">verify if the page results are ordered in decreasing order of cost</span>
   
-  <span class="lead-duration duration">5.831</span>
+  <span class="lead-duration duration">0.000</span>
 
   </div>
 

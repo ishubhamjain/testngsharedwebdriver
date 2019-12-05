@@ -22,10 +22,10 @@ Feature: Automation goibobo feature file name
   Background:
   Given User logs into the application and on the home page
   
-  #Scenario: postive scenario
-  #Given verify if GoIbibo homepage goibibo works as expected
-  #When search for one-way flights between "Bengaluru" and "Mumbai"
-  #Then verify if the page results are ordered in decreasing order of cost
+  Scenario: postive scenario
+  Given verify if GoIbibo homepage goibibo works as expected
+  When search for one-way flights between "Bengaluru" and "Mumbai"
+  Then verify if the page results are ordered in decreasing order of cost
   #
   #Scenario: Negative scenario - Source and Destination is same
   #Given verify if GoIbibo homepage goibibo works as expected
